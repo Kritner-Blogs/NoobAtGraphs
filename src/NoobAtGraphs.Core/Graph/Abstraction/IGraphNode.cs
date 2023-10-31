@@ -5,7 +5,7 @@ namespace NoobAtGraphs.Core.Graph.Abstraction;
 /// </summary>
 /// <typeparam name="TNodeKey">The type used to represent the key of a node.</typeparam>
 /// <typeparam name="TNode">The type of object being represented as nodes.</typeparam>
-public interface IGraphNode<out TNodeKey, out TNode>
+public interface IGraphNode<TNodeKey, out TNode>
     where TNodeKey : notnull
 {
     /// <summary>
@@ -17,4 +17,9 @@ public interface IGraphNode<out TNodeKey, out TNode>
     /// The graph node.
     /// </summary>
     TNode Node { get; }
+
+    /// <summary>
+    /// The dependents of this node
+    /// </summary>
+    ISet<TNodeKey> Successors { get; }
 }
