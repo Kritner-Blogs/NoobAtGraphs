@@ -6,7 +6,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E06FD47B-2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoobAtGraphs.Core", "src\NoobAtGraphs.Core\NoobAtGraphs.Core.csproj", "{9744C20E-4C5C-4A53-847E-79281D968FE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoobAtGraphs.Tests.Unit", "test\NoobAtGraphs.Tests.Unit\NoobAtGraphs.Tests.Unit.csproj", "{86303281-B81B-45D0-8DD4-676F011823C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoobAtGraphs.Core.Tests.Unit", "test\NoobAtGraphs.Core.Tests.Unit\NoobAtGraphs.Core.Tests.Unit.csproj", "{86303281-B81B-45D0-8DD4-676F011823C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

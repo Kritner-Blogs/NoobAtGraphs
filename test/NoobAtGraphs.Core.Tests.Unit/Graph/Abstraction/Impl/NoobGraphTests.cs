@@ -4,7 +4,7 @@ using NoobAtGraphs.Core.Graph.Exception;
 using NoobAtGraphs.Core.Graph.Impl;
 using Xunit;
 
-namespace NoobAtGraphs.Tests.Unit.Graph.Abstraction.Impl;
+namespace NoobAtGraphs.Core.Tests.Unit.Graph.Abstraction.Impl;
 
 /// <summary>
 /// Unit tests against <see cref="NoobGraph{TNodeKey,TNode}"/>.
